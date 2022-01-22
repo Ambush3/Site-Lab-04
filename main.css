@@ -2,17 +2,23 @@ h1 {
     text-align: center;
     font-family: Georgia;
     font-style: italic;
-    font-size: 32px;
+font-size: 30px;
 }
 
 h3 {
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 h5 {
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 > span {
+    color: grey;
 }
 
 body {
@@ -27,7 +33,8 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -38,7 +45,11 @@ a {
     text-align: center;
 }
 
+.social-media > span {
+    color: grey;
+}
+
 img {
-    width: 30%;
+    width: 35%;
     float: right;
 }
