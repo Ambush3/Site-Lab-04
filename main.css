@@ -8,13 +8,13 @@ font-size: 30px;
 h3 {
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sans-serif';
 }
 
 h5 {
     text-align: center;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sans-serif';
 }
 
 h5 > span {
@@ -29,12 +29,15 @@ body {
     padding-top: 3%;
     padding-bottom: 7%;
     border-width: thick;
-    margin: 5%;
+    margin-top: 3em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    position: relative;
 }
 
 p {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sans-serif';
 }
 
 a {
@@ -50,6 +53,6 @@ a {
 }
 
 img {
-    width: 35%;
+    width: 32%;
     float: right;
 }
