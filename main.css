@@ -1,8 +1,25 @@
+body {
+    background-color: hsla(202, 69%, 72%, 0.87);
+    color: white;
+    border: solid hsla(115, 51%, 53%, 0.692);
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    border-width: thick;
+    margin-top: 3em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    position: relative;
+}
+
+
 h1 {
     text-align: center;
-    font-family: Georgia;
+    font-weight: normal;
+    font-family: Georgia, serif;
     font-style: italic;
-font-size: 30px;
+    font-size: 30px;
+    margin-top: 0;
 }
 
 h3 {
@@ -21,19 +38,6 @@ h5 > span {
     color: grey;
 }
 
-body {
-    background-color: hsla(202, 69%, 72%, 0.87);
-    color: white;
-    border: solid hsla(115, 51%, 53%, 0.692);
-    padding: 5%;
-    padding-top: 3%;
-    padding-bottom: 7%;
-    border-width: thick;
-    margin-top: 3em;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    position: relative;
-}
 
 p {
     font-size: 18px;
@@ -41,7 +45,8 @@ p {
 }
 
 a {
-    color: hsla(115, 51%, 53%, 0.692);
+    font-weight: bold;
+    color: #00CC99;
 }
 
 .social-media {
@@ -55,4 +60,8 @@ a {
 img {
     width: 32%;
     float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 300px;
 }
